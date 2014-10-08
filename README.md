@@ -13,6 +13,27 @@ Use the assertions with chai's `expect` or `should` assertions.
 
 ## Assertions
 
+- [attr(name[, value])](#user-content-attrname-value)
+- [prop(name[, value])](#user-content-propname-value)
+- [css(name[, value])](#user-content-cssname-value)
+- [data(name[, value])](#user-content-dataname-value)
+- [class(className)](#user-content-classclassname)
+- [id(id)](#user-content-idid)
+- [html(html)](#user-content-htmlhtml)
+- [text(text)](#user-content-texttext)
+- [value(value)](#user-content-valuevalue)
+- [visible](#user-content-visible)
+- [hidden](#user-content-hidden)
+- [selected](#user-content-selected)
+- [checked](#user-content-checked)
+- [enabled](#user-content-enabled)
+- [disabled](#user-content-disabled)
+- [empty](#user-content-empty)
+- [exist](#user-content-exist)
+- [match(selector) / be(selector)](#user-content-matchselector--beselector)
+- [contain(text)](#user-content-containtext)
+- [have(selector)](#user-content-haveselector)
+
 ### `attr(name[, value])`
 Assert that the first element of the selection has the given attribute, using [`.attr()`](http://api.jquery.com/attr/).
 Optionally, assert a particular value as well. The return value is available for chaining.
